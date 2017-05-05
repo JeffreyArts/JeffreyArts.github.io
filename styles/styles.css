@@ -1,3 +1,7 @@
+body {
+	background-image: url("../images/bg.png");
+}
+
 .emmet-snippet {
 	padding: 15px  20px;
 	border:1px solid #ddd;
@@ -41,6 +45,7 @@ a.project-footnote:hover, a.project-footnote:focus {
 	text-decoration: none;
 	color: #333;
 	margin-bottom: 25px;
+	background-color: #fff;
 }
 a.project-thumb:hover, a.project-thumb:focus {
 	color: #333;
@@ -84,7 +89,7 @@ a.project-thumb:hover .btn, a.project-thumb:focus .btn {
 	width: 100%;
 }
 .project-thumb .title{
-	margin: 0 0 5px 0;
+	margin: 0 0 15px 0;
 	font-weight: bold;
 	color: #1888ae;
 	font-size: 1.3em;
