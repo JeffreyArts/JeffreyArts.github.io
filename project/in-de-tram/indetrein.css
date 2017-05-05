@@ -1,0 +1,1042 @@
+/*
+yellow = #fc0
+
+ */
+@import url(http://fonts.googleapis.com/css?family=Dosis:700);
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fc0;
+}
+* {
+	box-sizing:border-box;
+}
+/* Temp */
+.hide {
+	opacity:0.1;
+}
+.container {
+	height: 768px;
+    margin: 0 calc(25% - 150px);
+    position: absolute;
+    width: 1024px;
+	background-size: auto 100%;
+	/*background-image: url('indetrein_overlay.jpg');*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fc0;
+	overflow: hidden;
+}
+
+.frame {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity:0;
+}
+
+/* ### Frame 1 ###*/
+	
+	#frame1 .bg {
+		background-color: #369;
+	    height: 100%;
+	    position: absolute;
+	    text-align: center;
+	    width: 100%;
+	}
+	.text {
+		color: #fc0;
+		position: absolute;
+		display: inline-block;
+		height: 100px;
+		line-height: 100px;
+		top: calc(50% - 50px);
+		color: #fc0;
+		font-family: 'Dosis';
+		left: 0;
+		font-size: 80px;
+		margin: 0;
+		width: 100%;
+
+	}
+
+
+
+/* ### Frame 2 ###*/
+
+	#frame2 {
+		/*opacity: 1;*/
+	}
+
+	.layer {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}	
+	/* # Layer 1 # */
+	.raam {
+		background-color: #cff;
+		border: 10px solid #333;
+		border-radius: 15px;
+		display: block;
+		height: 42%;
+		position: absolute;
+		width: 50%;
+	    top: 16%;
+	}
+	#raam1 {
+		left: -34%;
+	}
+	#raam2 {
+		left: 34%;
+	}
+
+	.vloer {
+		height: 10px;
+		width: 100%;
+		position: absolute;
+		bottom: 16%;
+		left: 0;
+	}
+	.vloer .links {
+		background-color: #333;
+		height: 100%;
+		width: 46%;
+		position: absolute;
+	}
+	.vloer .rechts {
+		background-color: #333;
+		height: 100%;
+		width: 27%;
+		right: 0;
+		position: absolute;
+	}
+
+
+	/* # Layer 2 # */
+
+	.mond {
+		border-color: #333;
+		border-radius: 0 0 50% 50% / 0 0 100% 100%;
+		border-style: none solid solid;
+		border-width: 0 7px 7px;
+		position: absolute;
+		transition: all 0.2s ease-out 0s;
+	}
+	.mondhoek {
+		background-color: #f2e3d6;
+		border-radius: 19px;
+		position: absolute;
+	}
+	.mondhoek:after {
+		background-color: #333;
+		border-radius: 50%;
+		content: "";
+		height: 7px;
+		position: absolute;
+		width: 7px;
+	}
+		
+
+
+	/* ____                     
+	  / __ \____ ___  ____ _    
+	 / / / / __ `__ \/ __ `/    
+	/ /_/ / / / / / / /_/ /     
+	\____/_/ /_/ /_/\__,_/      
+	                            */
+
+		.oma {
+			/*background-color: rgba(200, 0, 255, 0.4);*/
+			height: 69%;
+			left: 16%;
+			position: absolute;
+			top: 21.5%;
+			width: 28.5%;
+		}
+		/* Scjhoenen*/
+			.oma .schoen {
+				background-color: #c33;
+				border: 7px solid #333;
+				border-radius: 25% 70% 25% 25% / 45% 70% 45% 45%;
+				bottom: 0;
+				height: 9%;
+				position: absolute;
+				width: 29%;
+			}
+			#oma-schoen1 {
+				left: 24%;
+			}
+			#oma-schoen2 {
+				left: 56%;
+			}
+		/* Lijf */
+			.oma .lijf_overflow {
+				height: 70%;
+				left: 3%;
+				overflow: hidden;
+				position: absolute;
+				top: 26%;
+				width: 92%;
+			}
+			.oma .lijf {
+				background-color: #3cf;
+				border-radius: 100% / 120% 120% 28% 28%;
+				box-shadow: 0 0 0 10px #333;
+				height: calc(100% - 20px);
+				margin-left: 10px;
+				margin-top: 10px;
+				width: calc(100% - 20px);
+			}
+
+		/* Vinger / Hand */
+			.oma .vinger {
+				background-color: #f2e3d6;
+				border-radius: 10px;
+				box-shadow: 0 0 0 6px #333;
+				height: 3%;
+				left: 74%;
+				position: absolute;
+				top: 59.5%;
+				transform: rotate(32deg);
+				width: 11%;
+			}
+			.oma .hand {
+				background-color: #f2e3d6;
+				border-radius: 100px;
+				box-shadow: 0 0 0 6px #333;
+				height: 13%;
+				left: 61%;
+				position: absolute;
+				top: 55%;
+				width: 17%;
+			}
+			.oma .hand:after {
+				background-color: #f2e3d6;
+				border-radius: 100%;
+				content: "";
+				height: 30%;
+				left: 56%;
+				position: absolute;
+				top: 25%;
+				transform: rotate(28deg);
+				width: 70%;
+			}
+			.oma .mouw {
+				background-color: #333;
+				border-radius: 15px;
+				box-shadow: 0 -9px 0 #3cf;
+				height: 10px;
+				left: 57%;
+				position: absolute;
+				top: 55%;
+				width: 27%;
+			}
+
+		/* Tasje */
+			.tas {
+				height: 30%;
+				left: 50%;
+				position: absolute;
+				top: 62%;
+				width: 40%;
+			}
+			.tas .handvat-links {
+				border-color: #c33;
+				border-radius: 0 0 40% 60% / 0 0 60% 100%;
+				border-style: none solid solid;
+				border-width: 0 7px 7px;
+				box-shadow: 2px 4px 0 4px #333;
+				height: 28%;
+				left: 3%;
+				position: absolute;
+				top: 0;
+				transform: rotate(-223deg);
+				width: 59%;
+			}
+			.tas .handvat-links:before {
+				border-color: #333;
+				border-radius: 0 0 40% 60% / 0 0 60% 100%;
+				border-style: none solid solid;
+				border-width: 7px;
+				content: "";
+				height: 100%;
+				left: -25%;
+				position: absolute;
+				top: -23%;
+				transform: rotate(7deg);
+				width: 100%;
+			}
+			.tas .handvat-rechts {
+				border-color: #c33;
+				border-radius: 0 0 60% 40% / 0 0 60% 100%;
+				border-style: none solid solid;
+				border-width: 0 7px 7px;
+				box-shadow: -2px 4px 0 4px #333;
+				height: 28%;
+				left: 32%;
+				position: absolute;
+				top: 0;
+				transform: rotate(216deg);
+				width: 59%;
+			}
+			.tas .handvat-rechts:before {
+				border-color: #333;
+				border-radius: 0 0 60% 40% / 0 0 60% 100%;
+				border-style: none solid solid;
+				border-width: 7px;
+				content: "";
+				height: 100%;
+				left: -2%;
+				position: absolute;
+				top: -23%;
+				transform: rotate(-7deg);
+				width: 100%;
+			}
+			.tas .fill {
+				background-color: #9c3;
+				border: 7px solid #333;
+				border-radius: 15px;
+				height: 57%;
+				left: 0;
+				position: absolute;
+				top: 42%;
+				width: 100%;
+			}
+			.tas .flapje {
+				background-color: #9c3;
+				border: 7px solid #333;
+				border-radius: 25% 25% 75% 75% / 50% 50% 100% 100%;
+				height: 33%;
+				left: 0;
+				position: absolute;
+				top: 33%;
+				width: 100%;
+			}
+			.tas .knopje {
+				background-color: #c33;
+				border: 5px solid #333;
+				border-radius: 65% 65% 75% 75% / 50% 50% 100% 100%;
+				height: 16%;
+				left: 40%;
+				position: absolute;
+				top: 60%;
+				width: 18%;
+			}
+
+		/* Hoofd */
+			.oma .hoofd {
+				background-color: #f2e3d6;
+				border: 7px solid #333;
+				border-radius: 50%;
+				height: 27%;
+				left: 39%;
+				position: absolute;
+				top: 5%;
+				width: 57%;
+			}
+			.oma .haar.voor.rechts {
+				background-color: #ccc;
+				border-radius: 100%;
+				box-shadow: 0 0 0 10px #333;
+				height: 45%;
+				left: 47%;
+				position: absolute;
+				top: -12%;
+				transform: rotate(33deg);
+				width: 64%;
+			}
+			.oma .haar.voor.links {
+				background-color: #ccc;
+				border-radius: 100%;
+				box-shadow: 0 0 0 10px #333;
+				height: 57%;
+				left: -7%;
+				position: absolute;
+				top: -13%;
+				transform: rotate(-33deg);
+				width: 71%;
+			}
+		
+			.oma .oog {
+				background-color: #333;
+				border-radius: 50%;
+				height: 12%;
+				position: absolute;
+				top: 52%;
+				width: 12%;
+			}
+			#oma-oog1 {
+				left: 35%;
+			}
+			#oma-oog2 {
+				right: 23%;
+			}
+			.oma .mond {
+				bottom: 10%;
+				height: 18%;
+				left: 31%;
+				width: 50%;
+			}
+			.oma .mondhoek {
+				background-color: #f2e3d6;
+				border-radius: 19px;
+				bottom: 41%;
+				position: absolute;
+			    height: 70%;
+				width: 21%;
+			}
+			.oma .mondhoek:after {
+				background-color: #333;
+				border-radius: 50%;
+				content: "";
+				height: 7px;
+				position: absolute;
+				top: 52%;
+				width: 7px;
+			}
+			#oma-mondoek-links {
+				/* ivm de rotate 180 deg vd .mond */
+				right: -18%;
+			}
+			#oma-mondoek-rechts {
+				/* ivm de rotate 180 deg vd .mond */
+				left: -18%;
+			}
+			#oma-mondoek-rechts:after {
+				right: 0;
+			}
+
+			.oma .haar.achter {
+				background-color: #ccc;
+				border: 10px solid #333;
+				border-radius: 100%;
+				height: 16%;
+				left: 19%;
+				position: absolute;
+				top: 14.5%;
+				width: 29%;
+			}
+			.oma .speld {
+				background-color: #333;
+				height: 43%;
+				left: 8%;
+				position: absolute;
+				top: -9%;
+				width: 8%;
+			}
+			.oma .speld:after {
+				background-color: #f00;
+				width: 10px;
+				height: 10px;
+				box-shadow:0 0 0 7px #333;
+				content:'';
+				top: -13px;
+				border-radius: 100%;
+				position: absolute;
+			}
+			#oma-speld1 {
+				transform: rotate(-52deg);
+			}
+			#oma-speld2 {
+				left: 24%;
+				top: -24%;
+				transform: rotate(-9deg);
+			}
+			#oma-speld2:before {
+				border-color: #333;
+				border-radius: 1% 1% 60% 60% / 0 0 70% 70%;
+				border-style: none solid solid;
+				border-width: 7px;
+				bottom: -28%;
+				content: "";
+				height: 0;
+				left: -175%;
+				position: absolute;
+				transform: rotate(138deg);
+				width: 94%;
+			}
+
+		/* Oma Verdrietig */
+			
+		.traan {
+			background-color: #9cc;
+			border: 4px solid #333;
+			border-radius: 200% 150% 200% 0 / 200% 100% 200% 0;
+			height: 14%;
+			left: 76%;
+			position: absolute;
+			top: 63%;
+			transform: rotate(145deg);
+			width: 10%;
+			opacity:0;
+		}
+		.verdrietig .traan {
+			opacity:1;
+		}
+
+		.verdrietig .mond {
+			bottom: 6%;
+			transform: rotateX(180deg);
+		}
+		.verdrietig  .mondhoek {
+		    height: 70%;
+			width: 21%;
+		}
+		.verdrietig #oma-mondoek-links {
+			right: -9%;
+			top: 15%;
+		}
+		.verdrietig #oma-mondoek-rechts {
+			height: 110%;
+			left: -14%;
+			top: -23%;
+		}
+		.verdrietig #oma-mondoek-rechts:after {
+			right: 0;
+		}
+
+		.verdrietig .oog {
+			border-color: #333;
+			border-radius: 0 0 50% 50% / 0 0 100% 100%;
+			border-style: none solid solid;
+			border-width: 0 7px 7px;
+			position: absolute;
+			transition: all 0.2s ease-out 0s;
+			background-color: transparent;
+			width: 20%;
+			height: 9%;
+			top: 55%;
+		}
+		
+		.verdrietig .oog:before {
+			background-color: #333;
+			border-radius: 50%;
+			content: "";
+			height: 7px;
+			right: -7px;
+			position: absolute;
+			top: -2px;
+			width: 7px
+		}
+		.verdrietig .oog:after {
+			background-color: #333;
+			border-radius: 50%;
+			content: "";
+			height: 7px;
+			left: -7px;
+			position: absolute;
+			top: -2px;
+			width: 7px
+		}
+
+		.verdrietig #oma-oog1 {
+			left: 33%;
+		}
+		.verdrietig #oma-oog2 {
+			right: 24%;
+		}
+			
+		.moonwalk {
+			transform: rotateY(180deg);
+		}
+		.moonwalk .tas{
+			display: none;
+		}
+
+	/*  __  ____              
+	   /  |/  (_)__  _____    
+	  / /|_/ / / _ \/ ___/    
+	 / /  / / /  __(__  )     
+	/_/  /_/_/\___/____/      
+	                          */
+		.mies {
+			/*background-color: rgba(200, 0, 255, 0.4);*/
+			height: 48.4%;
+			left: 49%;
+			position: absolute;
+			top: 27%;
+			width: 29.5%;
+		}
+
+		/* Schoenen */
+			.mies .schoenen {
+				height: 24%;
+				position: absolute;
+				right: 0;
+				top: 76%;
+				width: 24.5%;
+			}
+			.mies .schoen {
+				height: 90%;
+				position: absolute;
+				width: 85%;
+			}
+			#mies-schoen1 {
+				right: 25%;
+				top: -5%;
+			}
+			#mies-schoen2 {
+				right: -1%;
+				top: 3%;
+			}
+
+			.mies .schoen .color .voet {
+				background-color: #09c;
+				border-radius: 15px;
+				height: 85%;
+				position: absolute;
+				right: 29%;
+				top: 13%;
+				transform: rotate(15deg);
+				width: 20%;
+				box-shadow:0 0 0 10px #333;
+			}
+			.mies .schoen .color .voet:after{
+				content: "";
+				background-color: #09c;
+				border-radius: 15px;
+				height: 100%;
+				position: absolute;
+				right: 100%;
+				top: -4%;
+				transform: rotate(27deg);
+				width: 100%;
+				box-shadow:-10px 0px 0 #333;
+			}
+
+
+			.mies .schoen .color .fill {
+				background-color: #09c;
+				border-radius: 100%;
+				height: 65%;
+				position: absolute;
+				right: 45%;
+				top: 34%;
+				transform: rotate(15deg);
+				width: 28%;
+			}
+			.mies .schoen .color .fill:after {
+				background-color: #09c;
+				border-radius: 0;
+				content: "";
+				height: 35%;
+				position: absolute;
+				right: 65%;
+				top: 64%;
+				transform: rotate(15deg);
+				width: 115%;
+			}
+			.mies .schoen .color .hiel {
+				background-color: #09c;
+				border-radius: 15px;
+				bottom: 0;
+				height: 10%;
+				position: absolute;
+				right: 45%;
+				transform: rotate(-5deg);
+				width: 55%;
+				box-shadow:0px 7px 0 2px #333;
+			}
+			.mies .schoen .color .hiel:after {
+				content: "";
+				background-color: #09c;
+				border-radius: 15px;
+				bottom: 42%;
+				height: 100%;
+				position: absolute;
+				right: 5%;
+				transform: rotate(10deg);
+				width: 100%;
+			}
+			.mies .schoen .color .uitsnede {
+				background-color: #fc0;
+				border-radius: 15px;
+				bottom: 14%;
+				box-shadow: 0 0 0 5px #333;
+				height: 13%;
+				position: absolute;
+				right: 12%;
+				transform: rotate(7deg);
+				width: 50%;
+			}
+			.mies .schoen .color .uitsnede:after {
+				background-color: #fc0;
+				bottom: -70%;
+				content: "";
+				height: 220%;
+				position: absolute;
+				right: -40%;
+				transform: rotate(9deg);
+				width: 60%;
+			}
+
+		/* Lijf */
+			.mies .lijf_overflow {
+				height: 65%;
+				left: 0;
+				overflow: hidden;
+				position: absolute;
+				top: 36%;
+				width: 83%;
+			}
+			.mies .lijf {
+				background-color: #369;
+				box-shadow:0 0 0 10px #333;
+				width: calc(100% - 20px);
+				height: 100%;
+				margin-top: 10px;
+				margin-left: 10px;
+				border-radius:100% / 170% 170% 30% 30%;
+			}
+
+		/* Mouw / Hand */
+			.mies .mouw {
+				position: absolute;
+				height: 12%;
+				left: 38%;
+				top: 50%;
+				width: 25%;
+				border-bottom: 10px solid #333;
+			}
+			.mies .mouw:before, .mies .mouw:after {
+				background-color: #333;
+				border-radius: 10px 10px 0 0;
+				content: "";
+				height: 230%;
+				position: absolute;
+				top: -25%;
+				width: 10px;
+			}
+			.mies .mouw:before {
+				left: -10px;
+			}
+			.mies .mouw:after {
+				right: -10px;
+			}
+			.mies .mouw .onderkant{
+				background-color:#369;
+				bottom: -100%;
+				height: 50%;
+				left: 0;
+				position: absolute;
+				width: 100%;
+			}
+			.mies .mouw .onderkant:after {
+				background-color: #333;
+				border-radius: 0 0 10px 10px;
+				bottom: -10px;
+				content: "";
+				height: 10px;
+				left: -16%;
+				position: absolute;
+				width: 133%;
+			}
+			.mies .vinger {
+				background-color: #f2e3d6;
+				border-radius: 10px;
+				box-shadow: 0 0 0 6px #333;
+				height: 4%;
+				left: 52%;
+				position: absolute;
+				top: 70%;
+				transform: rotate(43deg);
+				width: 12%;
+			}
+			.mies .hand {
+				background-color: #f2e3d6;
+				border-radius: 100px;
+				box-shadow: 0 0 0 6px #333;
+				height: 17%;
+				left: 40%;
+				position: absolute;
+				top: 65%;
+				width: 17%;
+			}
+			.mies .hand:after {
+				background-color: #f2e3d6;
+				border-radius: 100%;
+				content: "";
+				height: 30%;
+				left: 61%;
+				position: absolute;
+				top: 24%;
+				transform: rotate(33deg);
+				width: 70%;
+			}
+
+		/* Hoofd */
+			
+			.mies .hoofd {
+				background-color: #f2e3d6;
+				position: absolute;
+				height: 40%;
+				width: 48%;
+				left: 17%;
+				top: 5%;
+				border: 7px solid #333;
+				border-radius: 50%;
+			}
+			.mies .oog {
+				background-color: #333;
+				border-radius: 50%;
+				height: 12%;
+				position: absolute;
+				top: 50%;
+				width: 12%;
+			}
+			#mies-oog1 {
+				left: 27%;
+			}
+			#mies-oog2 {
+				right: 27%;
+			}
+
+			.mies .mond {
+				height: 15%;
+				width: 47%;
+				bottom: 12%;
+				left: 27%;
+			}
+			.mies .mondhoek {
+				bottom: 15%;
+				height: 100%;
+				width: 29%;
+			}
+			.mies .mondhoek:after {
+				background-color: #333;
+				border-radius: 50%;
+				content: "";
+				height: 7px;
+				position: absolute;
+				top: 52%;
+				width: 7px;
+			}
+			#mies-mondoek-links {
+				/* ivm de rotate 180 deg vd .mond */
+				right: -21%;
+			}
+			#mies-mondoek-rechts {
+				/* ivm de rotate 180 deg vd .mond */
+				left: -21%;
+			}
+			#mies-mondoek-rechts:after {
+				right: 0;
+			}
+
+		/* Haar */
+			.mies .haar.voor.links {
+				background-color: #7f562e;
+				border-radius: 100%;
+				box-shadow: 0 0 0 8px #333;
+				height: 18%;
+				left: 12%;
+				position: absolute;
+				top: 3%;
+				transform: rotate(-17deg);
+				width: 38%;
+			}
+			.mies .haar.voor.links:before {
+				background-color: #7f562e;
+				content: "";
+				height: 59%;
+				left: -5%;
+				position: absolute;
+				top: 46%;
+				transform: rotate(17deg);
+				width: 13%;
+			}
+			.mies .haar.voor.rechts {
+				background-color: #7f562e;
+				border-radius: 100%;
+				box-shadow: 0 0 0 8px #333;
+				height: 14%;
+				left: 47%;
+				position: absolute;
+				top: 7%;
+				transform: rotate(37deg);
+				width: 25%;
+			}
+			.mies .haar.voor.rechts:before {
+				background-color: #7f562e;
+				border-radius: 100%;
+				content: "";
+				height: 59%;
+				left: -32%;
+				position: absolute;
+				top: 41%;
+				transform: rotate(6deg);
+				width: 55%;
+			}
+			.mies .haar.voor.rechts:after {
+				background-color: #7f562e;
+				content: "";
+				height: 69%;
+				position: absolute;
+				right: -18%;
+				top: 41%;
+				transform: rotate(-37deg);
+				width: 28%;
+			}
+
+
+			.mies .haar.achter.links {
+				background-color: #7f562e;
+				border-radius: 10px 0 0;
+				box-shadow: -8px 0 0 #333;
+				content: "";
+				height: 33%;
+				left: 13%;
+				position: absolute;
+				top: 14%;
+				transform: rotate(-2deg);
+				width: 29%;
+			}
+			.mies .haar.achter.links:before {
+				background-color: #7f562e;
+				border-left: 10px solid #333;
+				border-radius: 0;
+				content: "";
+				height: 20%;
+				left: -48%;
+				position: absolute;
+				top: 91%;
+				transform: rotate(-54deg);
+				width: 91%;
+			}
+			.mies .haar.achter.links:after {
+				border-color: #333;
+				border-radius: 0 0 50% 50% / 0 0 100% 100%;
+				border-style: none none solid solid;
+				border-width: 0 10px 8px;
+				bottom: 8%;
+				content: "";
+				height: 11%;
+				left: -75%;
+				position: absolute;
+				transform: rotate(-77deg);
+				width: 115%;
+			}
+
+			.mies .haar.achter.rechts {
+				background-color: #7f562e;
+				border-radius: 10px 0 0;
+				box-shadow: 8px 0 0 #333;
+				content: "";
+				height: 33%;
+				left: 41%;
+				position: absolute;
+				top: 15%;
+				transform: rotate(2deg);
+				width: 29%;
+			}
+			.mies .haar.achter.rechts:before {
+				background-color: #7f562e;
+				border-right: 10px solid #333;
+				border-radius: 0;
+				content: "";
+				height: 20%;
+				right: -48%;
+				position: absolute;
+				top: 91%;
+				transform: rotate(54deg);
+				width: 91%;
+			}
+			.mies .haar.achter.rechts:after {
+				border-color: #333;
+				border-radius: 100%;
+				border-style: none none solid solid;
+				border-width: 0 10px 8px 0;
+				bottom: -13%;
+				content: "";
+				height: 18%;
+				position: absolute;
+				right: -62%;
+				transform: rotate(65deg);
+				width: 73%;
+			}
+	/* Mies Boos */
+
+	.boos #mies-oog2:after {
+		background-color: #333;
+		border-radius: 45px;
+		content: "";
+		height: 5px;
+		position: absolute;
+		top: -10%;
+		transform: rotate(-20deg);
+		width: 100%;
+	}
+	.boos .oog:before {
+		background-color: #f2e3d6;
+		content: "";
+		height: 50%;
+		position: absolute;
+		top: -1px;
+		width: 100%;
+		transition: all 0.2s ease-out 0s;
+	}
+	.boos .mond {
+		bottom: 6%;
+		transform: rotateX(180deg);
+	}
+
+	/* # Layer 3 # */
+	.stoel {
+		height: 22%;
+	    left: 45%;
+	    position: absolute;
+	    top: 62%;
+	    width: 28.5%;
+	}
+	.leuning.recht {
+		border-left: 10px solid #333;
+		border-radius: 22.5px 22.5px 0 0;
+		border-top: 10px solid #333;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		width: 12.5%;
+	}
+	.leuning.schuin {
+	    background-color: #333;
+	    border-radius: 0 10px 0 0;
+	    height: 60%;
+	    left: 13.4%;
+	    position: absolute;
+	    top: 4.3%;
+	    transform: rotate(-15deg);
+	    width: 10px;
+	    box-shadow:-7px 2px 0px 3px #fc0;
+	}
+	.zitvlak {
+	    border-radius: 0 15px 0 0;
+	    border-right: 10px solid #333;
+	    border-top: 10px solid #333;
+	    height: 42%;
+	    left: 19%;
+	    position: absolute;
+	    top: 58%;
+	    width: 81%;
+	}
+
+/* ### Frame 3 ###*/
+	
+	#frame3 .bg {
+		background-color: #fc0;
+	    height: 100%;
+	    position: absolute;
+	    text-align: center;
+	    width: 100%;
+	}
+	#frame3 .text {
+		color: #369;
+	}
+
+	.de-maatschappij {
+		opacity: 0;
+		transition: .2s all ease-out;
+	}

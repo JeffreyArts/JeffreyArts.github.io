@@ -1,0 +1,54 @@
+.details {
+	position: relative;
+	top: 15px;
+	left: 25px;
+	width: 60%;
+	height: 250px;
+	float: left;
+}
+.details .note {
+	display: block;
+	float: left;
+	margin: 3px 0 0 10px ;
+}
+.details i.icon {
+	display: block;
+	float: left;
+	position: relative;
+	font-weight: bold;
+	font-size:36px;
+	font-style: normal;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	background-color:#ccc;
+	color: #fff;
+	line-height: 25px;
+	cursor:pointer;
+	z-index: 50;
+}
+.details i.icon.active {
+	background-color: #f5f5f5;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	color: #333;
+}
+.details .expand.text {
+	border: 1px solid #ccc;
+	display: none;
+	margin-top: 30px;
+	padding: 10px;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+.details .expand.text h4 {
+	color: #f00;
+	font-weight: bold;
+	font-size: 14pt;
+}
+.details .expand.text p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 10.5pt;
+}

@@ -1,0 +1,21 @@
+#contact .page-bg {
+	background-color: #008335;
+}
+
+#contact .page-content h1 {
+	color: #fff;
+}
+
+#contact .page-content p {
+	color: #fff;
+}
+
+*[data-currentpage=contact] .page-nav-item .text {
+	color: #44ac32;
+}
+*[data-currentpage=contact] .page-nav-item.active .text {
+	color: #fdd800;
+}
+*[data-currentpage=contact] .page-nav-share-title {
+	color: #fff;
+}

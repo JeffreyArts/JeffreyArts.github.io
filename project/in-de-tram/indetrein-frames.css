@@ -1,0 +1,134 @@
+#frame1 {   
+    animation-name: firstframe;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-play-state: running;
+}
+    #frame1 .bg {
+        animation-name: firstframe_bg;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-play-state: running;
+    }
+    .text {
+        animation-name: firstframe_text;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-play-state: running;
+}
+
+#frame2 {   
+    animation-name: secondframe;
+    animation-duration: 25.8s;
+    animation-timing-function: linear;
+    animation-delay: 2.2s;
+    animation-play-state: running;
+}
+
+    .oma { 
+        left: -30%;
+    }
+
+#frame3 {   
+    animation-name: thirdframe;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 24.75s;
+    animation-play-state: running;
+}
+
+
+
+
+@keyframes firstframe {
+    0%   {opacity: 1;}
+    90%   {opacity: 1;}
+    100%   {opacity: 0;}
+}
+    @keyframes firstframe_bg {
+        10%   {background-color: #fc0;}
+        100%   {background-color: #fc0}
+    }
+    @keyframes firstframe_text {
+        10%   {color: #369;}
+        100%   {color: #369}
+    }
+
+@keyframes secondframe {
+    1%      {opacity: 1;}
+    99%     {opacity: 1;}
+    100%    {opacity: 0;}
+}
+@keyframes thirdframe {
+    1%      {opacity: 1;}
+    100%    {opacity: 100;}
+}
+
+/* Webkit copy */
+#frame1 {   
+    -webkit-animation-name: firstframe;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-play-state: running;
+}
+    #frame1 .bg {
+        -webkit-animation-name: firstframe_bg;
+        -webkit-animation-duration: 2.5s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-delay: 0s;
+        -webkit-animation-play-state: running;
+    }
+    .text {
+        -webkit-animation-name: firstframe_text;
+        -webkit-animation-duration: 2.5s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-delay: 0s;
+        -webkit-animation-play-state: running;
+}
+
+#frame2 {   
+    -webkit-animation-name: secondframe;
+    -webkit-animation-duration: 25.8s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.2s;
+    -webkit-animation-play-state: running;
+}
+
+#frame3 {   
+    -webkit-animation-name: thirdframe;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 24.75s;
+    -webkit-animation-play-state: running;
+}
+
+
+
+
+@-webkit-keyframes firstframe {
+    0%   {opacity: 1;}
+    90%   {opacity: 1;}
+    100%   {opacity: 0;}
+}
+    @-webkit-keyframes firstframe_bg {
+        10%   {background-color: #fc0;}
+        100%   {background-color: #fc0}
+    }
+    @-webkit-keyframes firstframe_text {
+        10%   {color: #369;}
+        100%   {color: #369}
+    }
+
+@-webkit-keyframes secondframe {
+    1%      {opacity: 1;}
+    99%     {opacity: 1;}
+    100%    {opacity: 0;}
+}
+@-webkit-keyframes thirdframe {
+    1%      {opacity: 1;}
+    100%    {opacity: 100;}
+}

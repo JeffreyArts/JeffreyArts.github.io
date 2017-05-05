@@ -1,0 +1,323 @@
+.sidebar-open .layout-sidebar-container {
+	left: 0;
+}
+.sidebar-open .layout-container {
+	margin-left: calc(31% + 145px);
+}
+.sidebar-open .layout-top-container {
+	width: 69%;
+}
+.sidebar-open .layout-top-center {
+	width: calc(100% - 145px); /* 445px = width.layout-top-left */
+	padding-left: 5px;
+	padding-right: 5px;
+	display: none;
+}
+	
+
+.sidebar-open .sidebar-button .text-close{
+	display: block;
+}
+.sidebar-open .sidebar-button .text-open{
+	display: none;
+}
+
+
+.sidebar-open .hamburger .slice:nth-child(1) {
+	left: 0;
+    position: absolute;
+    top: 8px;
+	transform: rotate(45deg);
+}
+.sidebar-open .hamburger .slice:nth-child(2) {
+	opacity:0;
+	width: 40%;
+	margin-left: 30%;
+}
+.sidebar-open .hamburger .slice:nth-child(3) {
+	left: 0;
+    position: absolute;
+    top: 8px;
+	transform: rotate(-45deg);
+}
+
+.sidebar-open .layout-top-right {
+	display: none;
+}
+
+
+
+
+.sidebar-button {
+	width: 100%;
+	background-color: #00aeef;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 24px;
+	cursor: pointer;
+}
+.sidebar-button .text-close{
+	display: none;
+}
+
+
+.hamburger {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin: 10px 20px 10px 10px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+.hamburger .slice{
+	width: 100%;
+	display: inline-block;
+	background-color: #111;
+	height: 4px;
+    margin-top: 5px;
+	border-radius:10px;
+	float: left;
+	transition: all 0.5s linear 0s; /* @sidebar_slide_animation */
+}
+
+/* Hoofdmenu Styling*/
+.hoofd-menu {
+	width: 100%;
+	display: block;
+	float: left;
+}
+.hoofd-menu ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	float: left;
+}
+.hoofd-menu .menu-item {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.hoofd-menu .menu-item a{
+	display: inline-block;
+    float: left;
+    position: relative;
+    transition: all 0.2s ease-out 0s;
+    width: 100%;
+    z-index: 2;
+}
+.hoofd-menu .menu-item a:hover .text, .hoofd-menu .menu-item a:focus .text{
+	font-weight: bold;
+}
+.hoofd-menu .menu-item a:hover .bullet, .hoofd-menu .menu-item a:focus .bullet{
+	width: 24px;
+	height: 24px;
+	border-radius:100%;
+	margin: 3px;
+	border-color:#000;
+}
+
+
+
+.hoofd-menu .menu-item + .menu-item {
+	padding-top: 10px;
+}
+.hoofd-menu .menu-item:nth-last-child(1):before {
+	display: none;
+}
+.hoofd-menu .menu-item:before {
+	content:'';
+	float: left;
+	display: none;
+	position: absolute;
+	left: 12.5px;
+	bottom: -18px;
+	width: 4px;
+	height: 28px;
+	background-color: #fff;
+}
+
+.hoofd-menu .bullet {
+	display: none;
+	background-color: #fff;
+	float: left;
+	width: 20px;
+	height: 20px;
+	border:5px solid #222;
+	border-radius:100%;
+	margin: 5px;
+	transition: .2s all ease-out;
+}
+.hoofd-menu .menu-item .text {
+	color: #fff;
+	font-family: 'Open Sans Condensed';
+	font-size: 24px;
+	display: inline-block;
+	float: left;
+	line-height: 28px;
+}
+
+
+
+
+.sidebar-footer {
+	float: left;
+	width: 87%;
+	position: absolute;
+	bottom: 2.3%;
+}
+
+.sidebar-footer-links {
+	display: none;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-footer-links li{
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.sidebar-footer-link {
+	display: block;
+	float: left;
+	width: 100%;
+	line-height: 40px;
+	padding-bottom: 32px;
+}
+.sidebar-footer-link figure {
+	width: 40px;
+	display: none;
+	float: left;
+	height: 40px;
+	margin-right: 17px;
+}
+.sidebar-footer-link figure img{
+	width: 100%;
+}
+.sidebar-footer-link .text {
+	color: #fff;
+	font-family: 'Open Sans Condensed';
+	font-size: 24px;
+	display: inline-block;
+	float: left;
+}
+
+
+.sidebar-contact {
+	float: left;
+	width: 100%;
+	display: none;
+}
+.sidebar-contact ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.sidebar-contact li {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.sidebar-contact li i{
+	font-style: normal;
+	display: none;
+}
+.sidebar-contact li:nth-last-child(1) {
+	font-weight: bold;
+}
+.sidebar-contact-main-icon,
+.sidebar-contact-main-text {
+	float: left;
+	display: inline-block;
+	line-height: 32px;
+}
+.sidebar-contact-main-icon {
+	height: 32px;
+    width: 60px;
+    display: none;
+}
+
+.sidebar-contact-main-icon img {
+	height: 100%;
+}
+
+.sidebar-contact-main-text {
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 14px;
+}
+
+/* _____                              _       ___     ____  __        
+  / ___/_____________  ___  ____     | |     / (_)___/ / /_/ /_  _____
+  \__ \/ ___/ ___/ _ \/ _ \/ __ \    | | /| / / / __  / __/ __ \/ ___/
+ ___/ / /__/ /  /  __/  __/ / / /    | |/ |/ / / /_/ / /_/ / / (__  ) 
+/____/\___/_/   \___/\___/_/ /_/     |__/|__/_/\__,_/\__/_/ /_/____/  
+                                                                       */
+/* SM */
+@media screen and ( min-width: 768px) {                  
+	.sidebar-open .layout-container {
+		margin-left: 31%;
+	} 
+}                                                      
+/* MD */
+@media screen and ( min-width: 1024px) {
+	
+	.hoofd-menu .menu-item .text {
+		margin-left: 25px;
+	}
+	.sidebar-footer-link figure,
+	.sidebar-contact-main-icon,
+	.sidebar-contact li i,
+	.hoofd-menu .menu-item:before,
+	.sidebar-open .layout-top-center,
+	.hoofd-menu .bullet {
+		display: inline-block;
+	}
+}
+
+
+/* LG */
+@media screen and ( min-width: 1200px) {
+	.sidebar-open .layout-top-center {
+		width: calc(100% - 445px); /* 445px = width.layout-top-left */
+	}
+	.sidebar-open .layout-top-right {
+		display: block;
+	}
+}
+
+/* _____                              __  __     _       __    __      
+  / ___/_____________  ___  ____     / / / /__  (_)___ _/ /_  / /______
+  \__ \/ ___/ ___/ _ \/ _ \/ __ \   / /_/ / _ \/ / __ `/ __ \/ __/ ___/
+ ___/ / /__/ /  /  __/  __/ / / /  / __  /  __/ / /_/ / / / / /_(__  ) 
+/____/\___/_/   \___/\___/_/ /_/  /_/ /_/\___/_/\__, /_/ /_/\__/____/  
+                                               /____/                  */
+
+/* Max height small*/
+@media screen and ( min-height: 450px) {
+	.sidebar-contact {
+		display: block;
+	}
+}
+/* Max height small*/
+@media screen and ( min-height: 640px) {
+	.sidebar-footer-links {
+		display: block;
+	}
+}

@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('Glyphicons Halflings/glyphicons-halflings-regular.eot');
+  src: url('Glyphicons Halflings/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('Glyphicons Halflings/glyphicons-halflings-regular.woff') format('woff'), url('Glyphicons Halflings/glyphicons-halflings-regular.ttf') format('truetype'), url('Glyphicons Halflings/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-heart:before { content: "\e005"; }
+.glyphicon-cog:before	{ content: "\e019";}
+.glyphicon-list:before	{ content: "\e056";}
+
+
+.tabs {
+	width: 960px;
+}
+
+.tabs.three-tabs > li > ul li {
+	width: 33.333333%;
+}
+
+.tabs > li {
+	border-left: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	background-color: #f8f8f8;
+}
+.tabs > li > ul {
+	background-color: #fff;
+	border-right: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	border-radius: 0 0 15px 15px;
+}
+.tabs > li > ul li {
+	padding: 20px;
+}
+
+/**	2 Columns lay-out		**/
+.tabs > li > ul.columns-2 li {
+	width: 50%;
+}
+
+.tabs > li > ul li:first-child {
+	border-radius:15px 0 0 0;
+}
+.tabs > li > ul li:last-child {
+	border-radius:0 15px 0 0;
+}
+
+
+.tabs > li.active {
+	background-color: #fff;
+	border-bottom: 1px solid #fcfcfc;
+}
+
+.tabs > li.active .tab {
+	border-radius:15px 15px 0 0;
+}
+.tabs > li.active .tab figure {
+	border-color: #e4e4e4;
+}
+
+.tabs .tab {
+	padding: 10px 20px;
+	border-radius:15px;
+	height: 80px;
+}
+.tabs .tab figure {
+	border-radius:5px;
+	background-color: #fcfcfc;
+	display: inline-block;
+	float: left;
+	border:1px solid transparent;
+}
+.tabs .tab h3 {
+	margin: 0 0 2px 0;
+	font-size: 16px;
+}
+.tabs .tab span {
+	color: #ccc;
+}

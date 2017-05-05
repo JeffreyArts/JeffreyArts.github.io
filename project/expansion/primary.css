@@ -1,0 +1,7 @@
+.details .expand.text {
+	z-index: 49;
+}
+.details .expand.text.open {
+	display: block;
+	position: absolute;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Truncate</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.truncate.js"></script>
+	<link rel="stylesheet" href="example.css" />
+
+
+</head>
+<body>
+	<div class="block">
+		<p data-truncate="4">Blue Bottle scenester squid you probably haven't heard of them.  Odd Future fixie raw denim before they sold out.  Butcher Banksy single-origin coffee, ugh locavore beard cardigan Williamsburg vinyl post-ironic pickled.  Forage next level selvage, biodiesel locavore VHS lo-fi.  Fixie butcher messenger bag craft beer letterpress.  Scenester Neutra selfies skateboard.  Meggings try-hard photo booth, typewriter Godard gluten-free skateboard XOXO normcore food truck sriracha fixie Helvetica cred.</p>
+	</div>
+	<div class="block">
+		<p data-truncate="4">Church-key occupy cray wolf stumptown.  Trust fund stumptown Carles tofu, occupy Tumblr lomo plaid four loko mustache Helvetica fingerstache farm-to-table church-key.  Helvetica 90's Truffaut, roof party dreamcatcher salvia sartorial YOLO gastropub paleo aesthetic.  Mumblecore Truffaut yr Shoreditch pickled.  Vinyl freegan +1 messenger bag bicycle rights, selfies actually whatever occupy.  Brunch cornhole put a bird on it PBR four loko food truck, Cosby sweater banjo gastropub whatever cray.  Narwhal Blue Bottle leggings direct trade  Truffaut master cleanse, salvia kale chips art party try-hard Helvetica organic pour-over biodiesel.</p>
+	</div>
+	<div class="block">
+		<p data-truncate="3">Normcore Tumblr slow-carb, Brooklyn tattooed Odd Future craft beer forage bicycle rights Thundercats artisan cornhole ethical paleo keytar.  Actually letterpress Etsy next level keytar messenger bag.  Butcher trust fund ethical hashtag narwhal, kitsch Schlitz fingerstache actually wayfarers craft beer direct trade.  Tonx Schlitz shabby chic, fixie Tumblr twee umami Pinterest XOXO chillwave sriracha kogi.  Thundercats ugh McSweeney's, beard four loko asymmetrical plaid Pinterest roof party biodiesel fap.</p>
+	</div>
+	<div class="block">
+		<p data-truncate="2">Bespoke DIY drinking vinegar swag actually, Cosby sweater Truffaut biodiesel banjo kogi American Apparel</p>
+	</div>
+	<div class="block">
+		<p data-truncate="4">Blue Bottle scenester squid </p>
+	</div>
+<script>
+	/* Truncate on pageload */
+	$(document).ready(function(){
+	  truncateAll();
+	});
+	
+	/* Truncate on page resize */
+	$( window ).resize(function() {
+	  truncateAll();
+	});
+</script>
+</body>
+</html>
