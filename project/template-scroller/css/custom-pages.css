@@ -1,8 +1,0 @@
-
-/* Normaal zou ik deze niet zo inladen. Normaal zouden ze (in een 
-	live versie) samen worden gevoegd tot 1 minified css bestand. */
-@import url("custom-page/tno.css");
-@import url("custom-page/vraagstuk.css");
-@import url("custom-page/aanpak.css");
-@import url("custom-page/resultaten.css");
-@import url("custom-page/contact.css");

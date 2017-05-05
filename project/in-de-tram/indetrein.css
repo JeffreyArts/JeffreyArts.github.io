@@ -2,7 +2,7 @@
 yellow = #fc0
 
  */
-@import url(http://fonts.googleapis.com/css?family=Dosis:700);
+@import url(https://fonts.googleapis.com/css?family=Dosis:700);
 
 html, body {
 	margin: 0;
@@ -39,7 +39,7 @@ html, body {
 }
 
 /* ### Frame 1 ###*/
-	
+
 	#frame1 .bg {
 		background-color: #369;
 	    height: 100%;
@@ -75,7 +75,7 @@ html, body {
 		width: 100%;
 		height: 100%;
 		position: absolute;
-	}	
+	}
 	/* # Layer 1 # */
 	.raam {
 		background-color: #cff;
@@ -139,14 +139,14 @@ html, body {
 		position: absolute;
 		width: 7px;
 	}
-		
 
 
-	/* ____                     
-	  / __ \____ ___  ____ _    
-	 / / / / __ `__ \/ __ `/    
-	/ /_/ / / / / / / /_/ /     
-	\____/_/ /_/ /_/\__,_/      
+
+	/* ____
+	  / __ \____ ___  ____ _
+	 / / / / __ `__ \/ __ `/
+	/ /_/ / / / / / / /_/ /
+	\____/_/ /_/ /_/\__,_/
 	                            */
 
 		.oma {
@@ -360,7 +360,7 @@ html, body {
 				transform: rotate(-33deg);
 				width: 71%;
 			}
-		
+
 			.oma .oog {
 				background-color: #333;
 				border-radius: 50%;
@@ -461,7 +461,7 @@ html, body {
 			}
 
 		/* Oma Verdrietig */
-			
+
 		.traan {
 			background-color: #9cc;
 			border: 4px solid #333;
@@ -511,7 +511,7 @@ html, body {
 			height: 9%;
 			top: 55%;
 		}
-		
+
 		.verdrietig .oog:before {
 			background-color: #333;
 			border-radius: 50%;
@@ -539,7 +539,7 @@ html, body {
 		.verdrietig #oma-oog2 {
 			right: 24%;
 		}
-			
+
 		.moonwalk {
 			transform: rotateY(180deg);
 		}
@@ -547,11 +547,11 @@ html, body {
 			display: none;
 		}
 
-	/*  __  ____              
-	   /  |/  (_)__  _____    
-	  / /|_/ / / _ \/ ___/    
-	 / /  / / /  __(__  )     
-	/_/  /_/_/\___/____/      
+	/*  __  ____
+	   /  |/  (_)__  _____
+	  / /|_/ / / _ \/ ___/
+	 / /  / / /  __(__  )
+	/_/  /_/_/\___/____/
 	                          */
 		.mies {
 			/*background-color: rgba(200, 0, 255, 0.4);*/
@@ -769,7 +769,7 @@ html, body {
 			}
 
 		/* Hoofd */
-			
+
 			.mies .hoofd {
 				background-color: #f2e3d6;
 				position: absolute;
@@ -1024,7 +1024,7 @@ html, body {
 	}
 
 /* ### Frame 3 ###*/
-	
+
 	#frame3 .bg {
 		background-color: #fc0;
 	    height: 100%;
